@@ -4,7 +4,6 @@ on:
   workflow_run:
     workflows: [Main-Branch-Update]
     types: [completed]
-  workflow_dispatch:
 
 env:
   DEV_CONTAINER_NAME: astro-dev
