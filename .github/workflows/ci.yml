@@ -76,7 +76,7 @@ jobs:
   apply-cpp-formatting:
     name: Code Formatter
     runs-on: ubuntu-latest
-    if: ${{ github.event_name == 'pull_request' }}
+    # if: ${{ github.event_name == 'pull_request' }}
     needs: build-dev-container
     steps:
       - name: Check out repository
