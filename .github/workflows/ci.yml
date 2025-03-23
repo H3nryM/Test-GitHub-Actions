@@ -10,6 +10,7 @@ env:
 
 jobs:
   report-to-pr:
+    name: Report to PR
     runs-on: ubuntu-latest
     steps:
       - name: Post Status to PR
